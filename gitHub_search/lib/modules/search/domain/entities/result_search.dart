@@ -1,7 +1,7 @@
 class ResultSearch{
-  final String title;
+  final String login;
   final String content;
-  final String img;
+  final String avatar_url;
 
-  ResultSearch({this.title, this.content, this.img});
+  ResultSearch({this.login, this.content, this.avatar_url});
 }
